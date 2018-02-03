@@ -30,7 +30,7 @@ def show_cancel_button():
 
 def check_availability(input_file):
     input_file = open(input_file, 'r')
-    output_file = open("booty.txt", 'w')
+    output_file = open("output.txt", 'w')
 
     # code that will iterate through the file and check all of the names against RuneMetric's profile search feature
     for names in input_file:
